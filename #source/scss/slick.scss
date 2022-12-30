@@ -1,0 +1,144 @@
+/* Основные стили */
+
+/* Слайдер */
+.slick-slider {
+	min-width: 0;
+}
+/* Ограничивающая оболочка */
+.slick-list {
+	overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track {
+	display: flex;
+	align-items: flex-start;
+    margin: 60px 0;
+}
+
+/* Слайд */
+.slick-slide {
+    margin: 0 16px;
+}
+/* Слайд активный */
+.slick-slide.slick-active {
+
+
+}
+/* Слайд основной */
+.slick-slide.slick-active {
+
+}
+/* Слайд по центру */
+.slick-slide.slick-center {
+}
+
+/* Стрелка */
+.slick-arrow {
+}
+/* Стрелка влево */
+.slick-arrow.slick-prev {
+}
+/* Стрелка вправо */
+.slick-arrow.slick-next {
+}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled {
+}
+
+/* Точки */
+.slick-dots {
+	
+}
+.slick-dots li {
+
+}
+.slick-dots button {
+	
+}
+/* Конкретный слайдер */
+.choose__items {
+	position: relative;
+}
+
+.choose__items .slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.choose__items .slick-dots li {
+    list-style: none;
+    margin: 0px 12px;
+}
+.choose__items .slick-dots button {
+    font-size: 0;
+    width: 12px;
+    height: 12px;
+    background-color: #4F9CF9;
+    border-radius: 50%;
+}
+
+.choose__items .slick-dots li.slick-active button {
+    background-color: #043873;
+}
+
+/* Конкретный слайдер */
+
+.clients__items {
+	position: relative;
+}
+
+.clients__items .slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clients__items .slick-dots li {
+    list-style: none;
+    margin: 0px 12px;
+}
+.clients__items .slick-dots button {
+    font-size: 0;
+    width: 12px;
+    height: 12px;
+    background-color: #4F9CF9;
+    border-radius: 50%;
+}
+
+.clients__items .slick-dots li.slick-active button {
+    background-color: #043873;
+}
+
+.clients__items .slick-slide.slick-current{
+    background: #fff;
+    box-shadow: 15px 10px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    
+    .item-clients{
+        &__text {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            letter-spacing: -0.02em;
+            color: rgba(33, 37, 41, 1);
+            padding: 0 0 40px 0;
+            border-bottom: 1px solid  rgba(33, 37, 41, 1);
+        }
+
+        &__feedback{
+            svg.img-svg path{
+                fill:#043873;
+            }  
+        }
+    }
+
+    .client{
+        &__name{
+            color: rgba(33, 37, 41, 1); 
+        }
+        &__about{
+            color: rgba(33, 37, 41, 1);
+        } 
+    }
+}
+
+
